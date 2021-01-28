@@ -1,0 +1,116 @@
+h1,h2,h3,h4{text-align: center; color: #e3fffe}
+blockquote {text-align: center; color: #e3fffe}
+th,td{color: #ffffff;}
+.bg-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #0000
+    !important;
+}
+.img1 {background-image: url("BKGRD.jpg");}
+.img2 {background-color: #000000}
+.img3 {background-image: url("maz.jpg");}
+.school1 {
+  width: 250px;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+
+}
+.school2 {
+  width: 150px;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+
+}
+* {
+  box-sizing: border-box;
+}
+.HomeImg{
+  width: 1500px;
+  max-width: 100%;
+  height: auto;
+}
+.column {     
+	float: left;
+	width: 50%;
+	padding: 30px;
+	text-align: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.choices {
+  overflow: hidden;
+  height: 45px;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+.choices a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  font-family: Papyrus, fantasy;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.choices a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.choices1 a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  padding: 10px;
+  font-family: Papyrus, fantasy;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.choices1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.ddd p{
+	color: #ffffff;
+	position: bottomleft;
+	text-align: center;
+	font-family: 	Courier New, Monospace;
+}
+.char{
+	color: #ffffff;
+	position: bottomleft;
+	text-align: center;
+	font-family: 	Monaco, Monospace;
+	font-size: 20px;
+}
+.dd p{
+	color: #ffffff;
+	position: bottomleft;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+ul{color: #ffffff;
+	}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
